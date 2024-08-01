@@ -15,6 +15,62 @@ Welcome to the Students Community project! This application includes various fea
 - [Contributing](#contributing)
 - [License](#license)
 
+   ```bash
+   students-community-website/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   └── db.js            # Database configuration
+│   │   ├── controllers/
+│   │   │   ├── authController.js # Authentication controllers
+│   │   │   ├── chatController.js # Chat functionality controllers
+│   │   │   ├── notificationController.js # Notification controllers
+│   │   ├── models/
+│   │   │   ├── User.js          # User model
+│   │   │   ├── Chat.js          # Chat model
+│   │   │   └── Notification.js  # Notification model
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js    # Authentication routes
+│   │   │   ├── chatRoutes.js    # Chat routes
+│   │   │   └── notificationRoutes.js # Notification routes
+│   │   ├── services/
+│   │   │   ├── authService.js    # Authentication logic
+│   │   │   ├── chatService.js    # Chat logic
+│   │   │   └── notificationService.js # Notification logic
+│   │   ├── middlewares/
+│   │   │   └── authMiddleware.js # Authentication middleware
+│   │   ├── utils/
+│   │   │   ├── generateOtp.js   # OTP generation utility
+│   │   │   └── sendOtp.js       # OTP sending utility
+│   │   ├── app.js              # Express app setup
+│   │   └── server.js           # Server entry point
+│   ├── .env                    # Environment variables
+│   ├── package.json            # Backend dependencies
+│   └── README.md               # Backend-specific README
+│
+├── frontend/
+│   ├── public/                 # Public assets
+│   ├── src/
+│   │   ├── components/         # React components
+│   │   │   ├── Auth/           # Authentication components (Login, Register)
+│   │   │   ├── Chat/           # Chat components
+│   │   │   ├── Notifications/  # Notification components
+│   │   │   ├── Admin/          # Admin panel components
+│   │   │   ├── Navbar.js       # Navbar component
+│   │   ├── pages/              # Next.js pages
+│   │   │   ├── index.js        # Homepage
+│   │   │   ├── login.js        # Login page
+│   │   │   ├── register.js     # Register page
+│   │   │   ├── admin.js        # Admin panel page
+│   │   └── styles/             # CSS and styling files
+│   ├── .env.local              # Frontend environment variables
+│   ├── package.json            # Frontend dependencies
+│   └── README.md               # Frontend-specific README
+│
+├── .gitignore                  # Common .gitignore for both frontend and backend
+└── README.md                   # Root README for the repository
+
+
 ## Features
 - **User Registration & Login**: Users can register and log in with their details. Includes OTP verification.
 - **Notifications**: Admins can post and manage notifications, displayed in real-time. Old notifications are removed as new ones are added.
