@@ -15,6 +15,9 @@ Welcome to the Students Community project! This application includes various fea
 - [Contributing](#contributing)
 - [License](#license)
 
+
+
+## File structure
    ```bash
    students-community-website/
 ├── backend/
@@ -70,6 +73,7 @@ Welcome to the Students Community project! This application includes various fea
 ├── .gitignore                  # Common .gitignore for both frontend and backend
 └── README.md                   # Root README for the repository
 
+```
 
 ## Features
 - **User Registration & Login**: Users can register and log in with their details. Includes OTP verification.
