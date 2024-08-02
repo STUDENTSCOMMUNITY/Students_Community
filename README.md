@@ -214,7 +214,7 @@ We appreciate your interest in contributing to the Students Community project. T
 
 8. **Code Review**: Participate in the code review process by responding to feedback and making necessary changes.
 
-## Support             
+## Support
 
 If you have any questions or need assistance, please reach out to us through our [@StdentsCommunity](https://chat.whatsapp.com/ITQCHRQ56BTDROuf0q5Kvd) or [contact@studentscommunity.com](mailto:chaurasiyanitesh68@gmail.com).
 
@@ -257,26 +257,48 @@ Thank you for contributing to the Students Community project! Your involvement h
 │   ├── package.json            # Backend dependencies
 │   └── README.md               # Backend-specific README
 │
-├── frontend/
-│   ├── public/                 # Public assets
-│   ├── src/
-│   │   ├── components/         # React components
-│   │   │   ├── Auth/           # Authentication components (Login, Register)
-│   │   │   ├── Chat/           # Chat components
-│   │   │   ├── Notifications/  # Notification components
-│   │   │   ├── Admin/          # Admin panel components
-│   │   │   ├── Navbar.js       # Navbar component
-│   │   ├── pages/              # Next.js pages
-│   │   │   ├── index.js        # Homepage
-│   │   │   ├── login.js        # Login page
-│   │   │   ├── register.js     # Register page
-│   │   │   ├── admin.js        # Admin panel page
-│   │   └── styles/             # CSS and styling files
-│   ├── .env.local              # Frontend environment variables
-│   ├── package.json            # Frontend dependencies
-│   └── README.md               # Frontend-specific README
-│
-├── .gitignore                  # Common .gitignore for both frontend and backend
-└── README.md                   # Root README for the repository
+
+
+
+
+frontend/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── students-community/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── code-discussion/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── dsa-discussion/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── room-finding/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── notes-sharing/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── chat/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── admin-panel/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── login/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── register/
+│   │   ├── page.tsx
+│   │   └── components/
+│   └── components/
+├── public/
+├── styles/
+│   └── globals.css
+├── package.json
+├── README.md
+└── tsconfig.json
+
 
 ```

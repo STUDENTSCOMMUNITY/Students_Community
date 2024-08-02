@@ -34,3 +34,45 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+```bash
+frontend/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── students-community/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── code-discussion/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── dsa-discussion/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── room-finding/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── notes-sharing/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── chat/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── admin-panel/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── login/
+│   │   ├── page.tsx
+│   │   └── components/
+│   ├── register/
+│   │   ├── page.tsx
+│   │   └── components/
+│   └── components/
+├── public/
+├── styles/
+│   └── globals.css
+├── package.json
+├── README.md
+└── tsconfig.json
+
+```
