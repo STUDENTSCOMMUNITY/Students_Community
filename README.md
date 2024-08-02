@@ -1,3 +1,111 @@
+   # Students Community Website
+
+**Students Community** is a collaborative platform designed to help students connect, share resources, and engage in real-time discussions. We aim to create a dynamic and interactive space for student engagement.
+
+## Table of Contents
+
+- [Features](#features)
+- [Setup](#setup)
+- [Contributing](#contributing)
+- [How to Get Connected](#how-to-get-connected)
+- [License](#license)
+
+## Features
+
+- **Real-Time Chat**: Engage in real-time discussions with other students.
+- **Notifications**: Receive notifications about important updates and announcements.
+- **Admin Panel**: Manage notifications and other administrative tasks.
+- **Dedicated Sections**:
+  - Code Discussion
+  - DSA Discussion
+  - Room Finding and Selling
+  - Notes Sharing and Selling
+
+## Setup
+
+Follow these steps to set up the project locally.
+
+### Backend Setup
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/students-community/students-community-website.git
+    cd students-community-website
+    ```
+
+2. Navigate to the backend directory:
+
+    ```bash
+    cd backend
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Create a `.env` file with the following variables:
+
+    ```env
+    PORT=5000
+    MONGODB_URI=your_mongodb_uri
+    JWT_SECRET=your_jwt_secret
+    ```
+
+5. Start the backend server:
+
+    ```bash
+    npm run dev
+    ```
+
+### Frontend Setup
+
+1. Navigate to the frontend directory:
+
+    ```bash
+    cd ../frontend
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Create a `.env.local` file with the following variables:
+
+    ```env
+    NEXT_PUBLIC_API_URL=http://localhost:5000
+    ```
+
+4. Start the frontend server:
+
+    ```bash
+    npm run dev
+    ```
+
+## Contributing
+
+We welcome contributions to the Students Community project! To contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature-branch
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git add .
+    git commit -m "Description of changes"
+    ```
+
+4. Push your
+
     ```bash
     git push origin feature-branch
     ```
