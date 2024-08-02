@@ -116,9 +116,9 @@ We welcome contributions to the Students Community project! To contribute:
 
 To get involved with the Students Community:
 
-- **Join our Discord Server**: [Invite Link](https://discord.com/invite/example)
-- **Follow us on Twitter**: [@StudentsComm](https://twitter.com/StudentsComm)
-- **Email us**: [contact@studentscommunity.com](mailto:contact@studentscommunity.com)
+- **Join Code Discussion Watsapp Group**: [Invite Link](https://chat.whatsapp.com/Fhg2dV9VXVQCABxzv2s9JS)
+- **Join Students Community Watsapp Group**: [@StudentsComm](https://chat.whatsapp.com/ITQCHRQ56BTDROuf0q5Kvd)
+- **Email us**: [contact@studentscommunity.com](mailto:chaurasiyanitesh68@gmail.com)
 
 Stay updated with the latest news and announcements, and participate in discussions and events!
 
@@ -214,9 +214,9 @@ We appreciate your interest in contributing to the Students Community project. T
 
 8. **Code Review**: Participate in the code review process by responding to feedback and making necessary changes.
 
-## Support
+## Support             
 
-If you have any questions or need assistance, please reach out to us through our [Discord server](https://discord.com/invite/example) or [email us](mailto:support@studentscommunity.com).
+If you have any questions or need assistance, please reach out to us through our [@StdentsCommunity](https://chat.whatsapp.com/ITQCHRQ56BTDROuf0q5Kvd) or [contact@studentscommunity.com](mailto:chaurasiyanitesh68@gmail.com).
 
 ---
 
