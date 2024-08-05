@@ -5,8 +5,8 @@ const HomePage = () => {
     <Layout>
 <html>
 
-  <body>
-  <h1>Welcome to the Students Community</h1>
+  <body className='h-full w-full'>
+  <h1 className='h-100vh w-full'>Welcome to the Students Community</h1>
   </body>
 </html>
 
